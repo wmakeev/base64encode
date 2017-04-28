@@ -28,6 +28,9 @@
   ],
   "author": "Vitaliy V. Makeev",
   "tonicExampleFilename": ".tonic.js",
+  "engines": {
+    "node": ">=4"
+  },
   "devDependencies": {
     "tape": "^4.6.3",
     "eslint": "^3.19.0",
