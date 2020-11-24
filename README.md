@@ -7,7 +7,7 @@ base64encode
 
 > Base64 encoding for node and browser.
 
-base64encode use `btoa` in browser and `Buffer` in node context.
+**base64encode** use `btoa` in browser, `Buffer` in node and `Utilities.base64Encode` in [Google Application Script](https://www.google.ru/script/start/) context.
 
 ## Install
 

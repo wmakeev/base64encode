@@ -1,6 +1,6 @@
 {
   "name": "@wmakeev/base64encode",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Base64 encoding for node (with Buffer) and browser (with btoa).",
   "main": "index.js",
   "types": "index.d.ts",
