@@ -1,6 +1,6 @@
 {
   "name": "@wmakeev/base64encode",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Base64 encoding for node (with Buffer) and browser (with btoa).",
   "main": "index.js",
   "types": "index.d.ts",
@@ -33,8 +33,8 @@
     "node": ">=10"
   },
   "devDependencies": {
-    "prettier": "^2.3.2",
-    "tape": "^5.3.1"
+    "prettier": "^2.6.2",
+    "tape": "^5.5.3"
   },
   "prettier": {
     "semi": false,

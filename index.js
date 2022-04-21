@@ -1,18 +1,18 @@
 'use strict'
 
-var encode
+let encode
 
-// browser
-if (typeof btoa !== 'undefined') {
+// node
+if (typeof process !== 'undefined' && process.version) {
   encode = function (value) {
-    return btoa(value)
+    return Buffer.from(value).toString('base64')
   }
 }
 
-// node
-else if (typeof process !== 'undefined' && process.version) {
+// browser
+else if (typeof btoa !== 'undefined') {
   encode = function (value) {
-    return Buffer.from(value).toString('base64')
+    return btoa(value)
   }
 }
 
